@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product page</title>
+    <link rel="stylesheet" href="./products.css">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;0,700;1,200&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.2.0/css/font-awesome.css" integrity="sha512-YTuMx+CIxXa1l+j5aDPm98KFbVcYFNhlr2Auha3pwjHCF1lLbY9/ITQQlsUzdM1scW45kHC5KNib4mNa1IFvJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div class="Container">
+    <div class="Navbar">
+        <div class="logo">
+            <a href="./index.html"><img src="./images/logo.webp" alt="logo" width="125px" style="border-radius: 50%;"></a>
+        </div>
+        <nav>
+            <ul id="MenuItems">
+                <li><a href="./index.html">Home</a></li>
+                <li><a href="./products.html">Products</a></li>
+                <li><a href="">About</a></li>
+                <li><a href="">Contact</a></li>
+                <li><a href="./account.html">Account</a></li>
+            </ul>
+        </nav>
+        <a href="./cart.html"><img src="./images/images/cart.png" width="30px" height="30px"></a>
+        <img src="./images/images/menu.png" class="menu-icon" onclick="menutoggle()">
+    </div>
+</div>
+
+<!-- single product details -->
+
+<div class="small-cont single-product">
+    <div class="roww">
+        <div class="col-2">
+            <img src="./images/images/gallery-1.jpg" width="100%" id="productImg">
+            <div class="small-img-row">
+                <div class="small-img-col">
+                    <img src="./images/images/gallery-1.jpg" class="small-img">
+                    <img src="./images/images/gallery-2.jpg" class="small-img">
+                    <img src="./images/images/gallery-3.jpg" class="small-img">
+                    <img src="./images/images/gallery-4.jpg" class="small-img">
+                </div>
+            </div>
+        </div>
+        <div class="col-2">
+            <p>Home / T-shirt</p>
+            <h1>Red printed tshirt</h1>
+            <h4>$40.00</h4>
+            <select>
+                <option >Select Size</option>
+                <option >M</option>
+                <option >XL</option>
+                <option >XXL</option>
+            </select>
+            <input type="number" value="1">
+            <a href="" class="btn">Add to cart</a>
+            <h3>Product Details <i class="fa fa-indent" aria-hidden="true"></i></h3>
+            <br>
+            <p>Give your summer wardrobe a style upgrade with the HRX Men's Active T-shirt.
+                 Team it with a pair of shorts for your morning workout or
+                  a denims for an evening out with the guys</p>
+        </div>
+    </div>
+</div>
+
+<div class="small-cont">
+    <div class="row row-2">
+        <h2>Releated Product</h2>
+        <p>View More</p>
+    </div>
+</div>
+
+<!-- featured products -->
+<div class="small-cont">
+    <!-- <h2 class="title">Featured products</h2> -->
+    <div class="row row-2">
+        <h2>All Products</h2>
+       
+    </div>
+    <div class="row">
+        <div class="col-4">
+            <img src="./images/images/product-1.jpg" alt="">
+            <h4>Red Printed tshirt</h4>
+            <div class="rating">
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star-o" aria-hidden="true"></i>
+            </div>
+            <p>$50.00</p>
+        </div>
+        <div class="col-4">
+            <img src="./images/images/product-2.jpg" alt="">
+            <h4>Red Printed tshirt</h4>
+            <div class="rating">
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star-o" aria-hidden="true"></i>
+                <i class="fa fa-star-o" aria-hidden="true"></i>
+            </div>
+            <p>$55.00</p>
+        </div>
+        <div class="col-4">
+            <img src="./images/images/product-3.jpg" alt="">
+            <h4>Red Printed tshirt</h4>
+            <div class="rating">
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star-o" aria-hidden="true"></i>
+                <i class="fa fa-star-o" aria-hidden="true"></i>
+            </div>
+            <p>$66.00</p>
+        </div>
+        <div class="col-4">
+            <img src="./images/images/product-4.jpg" alt="">
+            <h4>Red Printed tshirt</h4>
+            <div class="rating">
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                <i class="fa fa-star-o" aria-hidden="true"></i>
+            </div>
+            <p>$45.00</p>
+        </div>
+    </div>
+</div>
+
+<!-- footer -->
+
+<div class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="footer-col-1">
+                <h3>Download App</h3>
+                <p>Download app for android and ios</p>
+                <div class="app-logo">
+                    <img src="./images/images/play-store.png" alt="">
+                    <img src="./images/images/app-store.png" alt="">
+                </div>
+            </div>
+            <div class="footer-col-2">
+                <img src="./images/logo.webp" alt="">
+                <p>Our purpose Is to Sustinably make the pleasure
+                    and Benifits on sport Accesaible to the many
+                </p>
+            </div>
+            <div class="footer-col-3">
+                <h3>Useful Links</h3>
+                <ul>
+                    <li>Coupans</li>
+                    <li>Bolg Post</li>
+                    <li>Return policy</li>
+                </ul>
+            </div>
+            <div class="footer-col-4">
+                <h3>Follow Us</h3>
+                <ul>
+                    <li>Facebook</li>
+                    <li>Linkdin</li>
+                    <li>Instagram</li>
+                </ul>
+            </div>
+        </div>
+        <hr>
+        <p class="copyright">Copyright 2024 @ Nitesh</p>
+    </div>
+</div>
+<!-- js for toggle menu -->
+<script>
+    var MenuItems = document.getElementById("MenuItems");
+    MenuItems.style.maxHeight="0px";
+
+    function menutoggle(){
+        if (MenuItems.style.maxHeight="0px") {
+
+            MenuItems.style.maxHeight="200px"
+        }
+        else{
+            MenuItems.style.maxHeight="0px"
+        }
+
+    }
+</script>
+
+<!-- js for product gallery -->
+<script>
+ var productImg = document.getElementById("productImg");
+ var SmallImg = document.getElementsByClassName("small-img")
+
+  SmallImg[0].onclick = function (){
+    productImg.src = SmallImg[0].src;
+  }
+  SmallImg[1].onclick = function (){
+    productImg.src = SmallImg[1].src;
+  }
+  SmallImg[2].onclick = function (){
+    productImg.src = SmallImg[2].src;
+  }
+  SmallImg[3].onclick = function (){
+    productImg.src = SmallImg[3].src;
+  }
+</script> 
+</body>
+</html>
